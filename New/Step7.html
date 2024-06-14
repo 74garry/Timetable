@@ -1,0 +1,39 @@
+<div class="row">
+<div class="col-lg-4">
+<img src="../images/Steps/wizard_finish_128.png">
+</div>
+
+<div class="col-lg-8">
+    <br><br><br>
+    <p>To generate timetable press the 'Generate<br>timetable' button</p>
+    <button class="btn btn-default">Generate timetable</button>
+    <br><br>
+    <p>To generate timetable press the 'Generate<br>timetable' button</p>
+    <button class="btn btn-default">Help</button>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        </br></br></br></br>
+        <hr class="horizontal_line" />
+
+        <div class="col-lg-9">
+            <button type="button" class="btn btn-default RightBtn">
+                <img src="../images/tick.jpg" class="btnImg"> Help
+            </button>
+            <button type="button" class="btn btn-default RightBtn">
+                <img src="../images/tick.jpg" class="btnImg"> Save
+            </button>
+            <button type="button" class="btn btn-default RightBtn">
+                <img src="../images/tick.jpg" class="btnImg"> Import
+            </button>
+        </div>
+
+        <div class="col-lg-3">
+            <input type="button" class="btn btn-default" id="btnPrevious" value="Previous" onClick="Steps.view('Step6')">
+            <input type="button" class="btn btn-default" id="btnNext" value="Finish" onclick="Steps.form.finalStageData.update();Steps.view('Finish')">
+            <input type="button" class="btn btn-default" id="btnCancel" value="Cancel" onclick="location.href='../Main.html'">
+        </div>
+    </div>
+</div>
